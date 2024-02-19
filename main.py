@@ -47,27 +47,29 @@ def calculate():
     result_km=user_data_get*1.6
     
     #MOSTRAR  RESULTADO EN KM
-    result=Label(window, text=result_km, relief=RAISED).grid(row=2, column=3, padx=2)
+    result=Label(window, text=result_km, relief=RAISED).grid(row=2, column=2, padx=2)
     
     
-    
-    
-
-
 #LABEL "MILES"
 to_miles_label=Label(window, text="to miles").grid(row=1, column=3, padx=2)
 
 
+
 #LABEL "IS IQUAL TO"
-is_iqual_to=Label(window, text="is iqual to", font=('calibre',10,'bold')).grid(row=2, column=2, padx=2)
+is_iqual_to=Label(window, text="is iqual to", font=('calibre',10,'bold')).grid(row=2, column=1, padx=2)
 
 
-#MOSTRAR  RESULTADO EN KM
-# result = Message(window, textvariable=user_data_get, relief=RAISED).grid(row=2, column=3, padx=2)
+#LABEL "KM"
+kilimeter_label=Label(window, text="Km").grid(row=2, column=3, padx=2)
+    
 
 
 #BOTON CALCULAR
 Button(window, text='Calculate', command=calculate).grid(row=3, column=2, pady=2, padx=2)
+
+
+    
+    
 
 
 
