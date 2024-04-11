@@ -17,7 +17,8 @@ The Miles to Kilometers Converter is a graphical user interface (GUI) applicatio
 ### Results and Achievements
 - Users can input distances in miles and convert them to kilometers with ease.
 - The application validates user input to ensure it is a valid numeric value.
-- Results are displayed promptly, providing users with instant feedback on their conversions.
+- Problem-Solving Skills: Overcoming challenges such as handling different types of input (integers and floats) and implementing conversion logic, strengthened my problem-solving skills.
+- Enhanced GUI Development Skills: Working with Tkinter for building the graphical user interface (GUI)  improved my skills in creating interactive and user-friendly applications. 
 
 Overall, this project provides a straightforward and practical solution for converting distances between miles and kilometers, enhancing user experience and convenience.
 
